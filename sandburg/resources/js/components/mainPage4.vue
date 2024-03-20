@@ -6,14 +6,20 @@
             >
                 Sandburg History
             </p>
-            <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
+            <p
+                class="mt-[24px] text-[#5C5C5C] text-[20px] font-PretendRegular text-center"
+            >
                 샌드버그는 온라인 사장님들이 잘 성장하고 생존할 수 있는 환경을
                 만들어가는 치열한 과정에 있습니다.<br />샌드버그의 시작부터
                 현재까지, 저희가 걸어온 길을 만나보세요.
             </p>
-            <v-timeline align="start">
+            <v-timeline align="start" class="mt-[24px]">
                 <v-timeline-item>
-                    <template v-slot:opposite> 2023 </template>
+                    <template v-slot:opposite
+                        ><p class="font-PretendBold text-[28px]">
+                            2023
+                        </p></template
+                    >
                     <div>
                         <div class="font-PretendRegular text-[16px]">10월</div>
                         <p class="font-PretendSemiBold text-[21px]">
@@ -53,7 +59,11 @@
                 </v-timeline-item>
 
                 <v-timeline-item>
-                    <template v-slot:opposite> 2022 </template>
+                    <template v-slot:opposite
+                        ><p class="font-PretendBold text-[28px]">
+                            2022
+                        </p></template
+                    >
                     <div>
                         <div class="font-PretendRegular text-[16px]">11월</div>
                         <p class="font-PretendSemiBold text-[21px]">
@@ -93,7 +103,11 @@
                 </v-timeline-item>
 
                 <v-timeline-item>
-                    <template v-slot:opposite> 2021 </template>
+                    <template v-slot:opposite
+                        ><p class="font-PretendBold text-[28px]">
+                            2021
+                        </p></template
+                    >
                     <div>
                         <div class="font-PretendRegular text-[16px]">12월</div>
                         <p class="font-PretendSemiBold text-[21px]">
@@ -148,8 +162,6 @@
         </div>
     </div>
 </template>
-<sciprt>
-export default {
-  
-}
-</sciprt>
+<script>
+export default {};
+</script>

@@ -1,33 +1,70 @@
 <template>
-    <div class="w-[73.96vw] flex flex-col items-center">
+    <div class="w-full h-[1080px] flex flex-col items-center">
         <p
-            class="w-[620px] inline-block font-PretendBold text-[56px] leading-[80px] mt-[44px] text-center"
+            class="w-[620px] inline-block font-PretendBold text-[56px] leading-[80px] mt-[50px] text-center"
         >
-            Solution
+            Core-Value
         </p>
-        <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
-            온라인 사장님들의 커머스 운영 난이도를 완화하기 위해 "스냅" 솔루션을
-            출시했습니다.
+        <p class="mt-[24px] text-[#5C5C5C] text-[26px] font-PretendSemiBold">
+            샌드버그가 지향하는 가치들을 소개합니다
         </p>
-        <img
-            src="../assets/images/solutionicon.png"
-            class="mt-[212px] w-[10vw]"
-        />
-        <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
-            샌드버그는 비용적 부담을 완화하는 것이 온라인 사업자를 설득할 수
-            있는 가장 좋은 방법이라는 것을 알고 있고, 이러한 점을 활용하여
-            온라인 사업자를 모으는 것에 힘쓰고 있습니다.
-        </p>
-        <p class="mt-[24px] text-[#5C5C5C] text-[26px]">
-            다수의 온라인 사업자들이 모였을 때, 이들의 데이터를 활용하여 만들어
-            나가는 BM을 구축하고 있으며, 데이터를 기반으로 금융 영역에서부터
-            온라인 사업자의 니즈와 금융사의 니즈를 연결하는 역할을 하고
-            있습니다.
-        </p>
+        <div class="w-[73.96vw] mt-[96px] flex justify-between">
+            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
+                <div class="h-[60.18vh] mt-auto">
+                    <img src="../assets/images/value1.jpg" />
+                    <p class="font-PretendBold text-[24px]">
+                        본질은 시간입니다
+                    </p>
+                    <p class="font-PretendBold text-[#727B88] text-[20px]">
+                        시간의 가치를 누구보다 소중하게 생각하며 효율성 극대화를
+                        통해 시간을 줄일 수 있도록 돕는 모든 것들을 사랑하고,
+                        만듭니다
+                    </p>
+                </div>
+            </div>
+            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
+                <div class="h-[60.18vh]">
+                    <img src="../assets/images/value2.jpg" />
+                    <p
+                        class="font-PretendBold text-[24px] bg-gradient-to-r from-[#7F3ADD] to-[#6264F6] text-transparent bg-clip-text"
+                    >
+                        데이터로 우리를 증명합니다
+                    </p>
+                    <p class="font-PretendBold text-[#7079CB] text-[20px]">
+                        우리가 뛰어나다는 것을 증명하는 많은 수단이 있지만,
+                        우리는 데이터로 그것을 증명하고데이터로 세상을
+                        효율적으로 만들어갑니다
+                    </p>
+                </div>
+                <div></div>
+            </div>
+            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
+                <div class="h-[60.18vh] mt-auto">
+                    <img src="../assets/images/value3.jpg" />
+                    <p class="font-PretendBold text-[24px] text-[#375984]">
+                        우리는 언더독입니다
+                    </p>
+                    <p class="font-PretendBold text-[#698AB1] text-[20px]">
+                        언더독 마인드셋을 기반으로, 실패를 두려워않는 사람들을
+                        사랑합니다
+                    </p>
+                </div>
+            </div>
+            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
+                <div class="h-[60.18vh]">
+                    <img src="../assets/images/value4.jpg" />
+                    <p class="font-PretendBold text-[24px] text-[#6C3111]">
+                        우리는 부적응자입니다
+                    </p>
+                    <p class="font-PretendBold text-[#6F6F6F] text-[20px]">
+                        불편함 속에 물음을 던지고, 본질을 파헤치는 과정을 즐기고
+                        사랑하며, 변화를 만들어내는 조직입니다
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
-<sciprt>
-export default {
-  
-}
-</sciprt>
+<script>
+export default {};
+</script>

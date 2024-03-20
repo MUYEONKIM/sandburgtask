@@ -1,19 +1,15 @@
 <template>
     <div
-        class="h-[1080px] mt-[225px] bg-black flex flex-col justify-center items-center text-center"
+        class="w-full h-[100vh] mt-[225px] bg-black flex flex-col justify-center items-center text-center"
     >
-        <!-- <p
+        <p
             class="w-[809.69px] bg-gradient-to-r from-[#B6B7F7] to-[#7FB2FE] text-[64px] font-PretendBold leading-[85px] text-transparent bg-clip-text"
         >
-            비지니스 광고의 시작,<br />
-            이제 샌드고와 함께 하세요
+            Sandburg In News
         </p>
-        <button
-            class="h-[65px] w-[206px] mt-[66px] bg-[#6250FF] rounded-[44px] text-[21px] text-white"
-            @click="goMessage"
-        >
-            메시지 바로가기
-        </button> -->
+        <p class="w-[809.69px] text-[24px] font-PretendSemiBold leading-[85px]">
+            언론에 비친 샌드버그를 만나보세요
+        </p>
         <v-carousel
             height="400"
             show-arrows="hover"
@@ -23,10 +19,17 @@
             <v-carousel-item v-for="(slide, i) in slides" :key="i">
                 <v-sheet :color="colors[i]" height="100%">
                     <div
-                        class="d-flex flex-col fill-height justify-center align-center"
+                        :class="`scale-[1.1] absolute inset-0 blur-md   ${imgsrc[i]} bg-cover`"
+                    ></div>
+                    <div
+                        class="relative z-10 d-flex flex-col fill-height justify-center align-center"
                     >
-                        <div class="text-h2">{{ slide }}</div>
-                        <div class="text-h2">{{ years[i] }}</div>
+                        <div class="text-[30px] font-PretendBold">
+                            {{ slide }}
+                        </div>
+                        <div class="text-[24px] font-PretendSemiBold">
+                            {{ years[i] }}
+                        </div>
                     </div>
                 </v-sheet>
             </v-carousel-item>
@@ -43,6 +46,14 @@ export default {
                 "pink darken-2",
                 "red lighten-1",
                 "deep-purple accent-4",
+            ],
+            imgsrc: [
+                "bg-[url('../js/assets/news/20230628.jpg')]",
+                "bg-[url('../js/assets/news/20230511.png')]",
+                "bg-[url('../js/assets/news/20220124.jpg')]",
+                "bg-[url('../js/assets/news/20221220.png')]",
+                "bg-[url('../js/assets/news/20211209.jpg')]",
+                "bg-[url('../js/assets/news/20210705.jpg')]",
             ],
             years: [
                 "2023.06.28",
