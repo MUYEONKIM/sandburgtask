@@ -77,7 +77,7 @@
                                 >
                                     <v-card
                                         border
-                                        class="pb-3 mr-[6px] w-[400px]"
+                                        class="pb-3 mr-[106px] w-[400px]"
                                         flat
                                     >
                                         <div class="h-[250px]">
@@ -109,7 +109,7 @@
             </p>
             <hr class="w-[60%] border-gray-500 mt-[10px]" />
             <v-card class="w-[100%] mt-[10px]" flat>
-                <v-data-iterator :items="recruit1">
+                <v-data-iterator :items="recruit3">
                     <template v-slot:default="{ items }">
                         <v-container class="pa-2" fluid>
                             <v-row dense>
@@ -157,8 +157,8 @@ export default {
         search: "",
         recruit1: [
             {
-                title: "Undefined",
-                subtitle: "Undefined",
+                title: "Administartion",
+                subtitle: "5년 이상",
             },
         ],
         recruit2: [
@@ -169,6 +169,12 @@ export default {
             {
                 title: "Frontend Engineer",
                 subtitle: "1년 이상",
+            },
+        ],
+        recruit3: [
+            {
+                title: "Marketer",
+                subtitle: "2년 이상",
             },
         ],
     }),
