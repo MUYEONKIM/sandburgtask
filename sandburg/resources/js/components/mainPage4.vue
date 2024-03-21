@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="w-[73.96vw] flex flex-col items-center">
+        <div class="w-[1300px] flex flex-col items-center break-words">
             <p
-                class="w-[620px] inline-block font-PretendBold text-[56px] leading-[80px] mt-[50px] text-center"
+                class="font-PretendBold text-[56px] leading-[80px] mt-[200px] text-center"
             >
                 Sandburg History
             </p>
@@ -20,7 +20,7 @@
                             2023
                         </p></template
                     >
-                    <div>
+                    <div class="w-[440px]">
                         <div class="font-PretendRegular text-[16px]">10월</div>
                         <p class="font-PretendSemiBold text-[21px]">
                             TIPS 일반형 선정

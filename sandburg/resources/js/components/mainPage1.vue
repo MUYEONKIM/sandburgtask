@@ -1,35 +1,32 @@
 <template>
     <section
-        class="h-[999px] bg-black w-full text-white font-PretendMedium relative"
+        class="h-[1080px] bg-[#0c0f0a] w-full font-PretendMedium flex justify-center items-center bg-[url('../js/assets/main.png')] bg-cover"
     >
         <div
-            class="h-full flex items-center flex-col justify-center w-[1420px]"
+            class="h-full flex flex-col justify-center w-[1300px] items-center min-[1300px]:items-start"
         >
-            <div class="flex flex-col items-start">
-                <img
-                    src="../assets/images/mainicon.png"
-                    class="w-[250px] h-[250px] bg-white"
-                />
+            <div class="flex flex-col items-start text-[#d3d3d3]">
                 <p
-                    class="w-[520px] inline-block mt-[3vh] text-white text-[56px] leading-[80px] font-PretendBold"
+                    class="w-[520px] inline-block mt-[3vh] text-[#9FBAFD] text-[56px] leading-[80px] font-PretendBold"
                 >
                     SANDBURG
                 </p>
-                <p class="text-[24px] text-[#FCFCFC]">MISFIT ORGANIZATION</p>
-                <p class="text-[24px] text-[#FCFCFC]">
+                <p class="text-[24px] mt-[30px]">MISFIT ORGANIZATION</p>
+                <p class="text-[24px] mt-[20px]">
                     국내 유일, 커머스와 핀테크를 잇는 데이터 전문기업
                     샌드버그입니다.
                 </p>
-                <p class="text-[24px] text-[#FCFCFC]">
+                <p class="text-[24px]">
                     온라인 사장님들이 마주하는 사업의 모든 문제를 데이터와
                     연결로 해결하고자 합니다.
                 </p>
 
-                <div class="mt-[6.31vh]">
+                <div class="mt-[40px]">
                     <button
-                        class="h-[65px] w-[206px] bg-[#6250FF] rounded-[44px]"
+                        @click="moveToPage('/about')"
+                        class="h-[65px] w-[206px] font-PretendBold text-[20px] bg-[#6250FF] rounded-[44px] hover:scale-105 duration-300"
                     >
-                        ABOUT
+                        -> &nbsp;ABOUT
                     </button>
                 </div>
             </div>
@@ -37,5 +34,15 @@
     </section>
 </template>
 <script>
-export default {};
+import { useMoveToPage } from "../assets/utils/moveToPage";
+
+export default {
+    setup() {
+        const { moveToPage } = useMoveToPage();
+
+        return {
+            moveToPage,
+        };
+    },
+};
 </script>

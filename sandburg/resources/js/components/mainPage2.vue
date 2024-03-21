@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[1080px] flex flex-col items-center">
+    <div class="w-full flex flex-col items-center">
         <p
             class="w-[620px] inline-block font-PretendBold text-[56px] leading-[80px] mt-[50px] text-center"
         >
@@ -8,9 +8,11 @@
         <p class="mt-[24px] text-[#5C5C5C] text-[26px] font-PretendSemiBold">
             샌드버그가 지향하는 가치들을 소개합니다
         </p>
-        <div class="w-[73.96vw] mt-[96px] flex justify-between">
-            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
-                <div class="h-[60.18vh] mt-auto">
+        <div
+            class="w-[1300px] mt-[96px] flex justify-between flex-col items-center min-[1600px]:flex-row"
+        >
+            <div class="w-[310px] h-[670px] flex flex-col">
+                <div class="h-[600px] mt-auto">
                     <img src="../assets/images/value1.jpg" />
                     <p class="font-PretendBold text-[24px]">
                         본질은 시간입니다
@@ -22,8 +24,8 @@
                     </p>
                 </div>
             </div>
-            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
-                <div class="h-[60.18vh]">
+            <div class="w-[310px] h-[670px] flex flex-col">
+                <div class="h-[600px] min-[1600px]:h-[650px]">
                     <img src="../assets/images/value2.jpg" />
                     <p
                         class="font-PretendBold text-[24px] bg-gradient-to-r from-[#7F3ADD] to-[#6264F6] text-transparent bg-clip-text"
@@ -36,10 +38,9 @@
                         효율적으로 만들어갑니다
                     </p>
                 </div>
-                <div></div>
             </div>
-            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
-                <div class="h-[60.18vh] mt-auto">
+            <div class="w-[310px] h-[670px] flex flex-col">
+                <div class="h-[600px] min-[1600px]:mt-auto">
                     <img src="../assets/images/value3.jpg" />
                     <p class="font-PretendBold text-[24px] text-[#375984]">
                         우리는 언더독입니다
@@ -50,8 +51,8 @@
                     </p>
                 </div>
             </div>
-            <div class="w-[17.5vw] h-[64.53vh] flex flex-col">
-                <div class="h-[60.18vh]">
+            <div class="w-[310px] h-[670px] flex flex-col">
+                <div class="h-[600px] min-[1600px]:h-[650px]">
                     <img src="../assets/images/value4.jpg" />
                     <p class="font-PretendBold text-[24px] text-[#6C3111]">
                         우리는 부적응자입니다

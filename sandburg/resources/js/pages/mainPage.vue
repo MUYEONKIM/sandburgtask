@@ -6,7 +6,6 @@
         <mainPage4 />
         <mainPage5 />
         <mainPage6 />
-        <mainPage7 />
     </div>
 </template>
 <script>
@@ -16,7 +15,6 @@ import mainPage3 from "../components/mainPage3.vue";
 import mainPage4 from "../components/mainPage4.vue";
 import mainPage5 from "../components/mainPage5.vue";
 import mainPage6 from "../components/mainPage6.vue";
-import mainPage7 from "../components/mainPage7.vue";
 
 export default {
     components: {
@@ -26,19 +24,6 @@ export default {
         mainPage4,
         mainPage5,
         mainPage6,
-        mainPage7,
-    },
-    methods: {
-        goLogin() {
-            this.$router.push("/login");
-        },
-        goRegister() {
-            this.$router.push("/register");
-        },
-        goMessage() {
-            this.$router.push("/message");
-        },
     },
 };
 </script>
-../components/mainPage33.vue
