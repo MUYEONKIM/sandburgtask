@@ -1,7 +1,7 @@
 <template>
     <img src="../assets/team.jpg" class="w-full h-[300px] object-cover" />
     <div class="w-full flex justify-center mb-[150px]">
-        <div class="w-[1300px] min-w-[1300px] flex flex-col items-start">
+        <div class="w-[1300px] flex flex-col items-start">
             <p
                 class="font-PretendBold text-[34px] mt-[50px] w-full text-center"
             >
@@ -22,13 +22,13 @@
             <div class="flex flex-col w-full mt-[100px] p-4">
                 <p class="font-PretendBold text-[28px]">Member</p>
                 <hr class="w-[60%] border-gray-500 mt-[10px]" />
-                <div class="flex mt-[50px]">
+                <div class="flex mt-[50px] flex-col min-[1300px]:flex-row">
                     <section
                         v-for="(member, i) in members"
                         :key="i"
                         class="font-PretendMedium text-[20px] flex w-full justify-evenly mt-[40px]"
                     >
-                        <div>
+                        <div class="">
                             <v-avatar
                                 color="surface-variant"
                                 size="200"
@@ -56,7 +56,12 @@
                 <section class="mt-[100px]">
                     <p class="font-PretendBold text-[28px]">Welfare</p>
                     <hr class="w-[60%] border-gray-500 mt-[10px]" />
-                    <img src="../assets/welfare.png" class="mt-[100px]" />
+                    <div class="">
+                        <img
+                            src="../assets/welfare.png"
+                            class="mt-[100px] object-fill"
+                        />
+                    </div>
                 </section>
                 <section class="mt-[100px]">
                     <p class="font-PretendBold text-[28px]">Location</p>
@@ -103,10 +108,10 @@ export default {
     data() {
         return {
             members: [
-                { name: "최수진", position: "이사", job: "CEO" },
+                { name: "김영희", position: "이사", job: "CEO" },
                 { name: "홍길동", position: "과장", job: "FrontEngineer" },
-                { name: "김철수", position: "대리", job: "BackendEngineer" },
-                { name: "이영희", position: "사원", job: "Designer" },
+                { name: "김무연", position: "대리", job: "BackendEngineer" },
+                { name: "전지현", position: "사원", job: "Designer" },
                 { name: "박보검", position: "사원", job: "Marketer" },
             ],
         };

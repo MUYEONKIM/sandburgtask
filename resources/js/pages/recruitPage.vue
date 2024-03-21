@@ -76,8 +76,8 @@
                                     class="max-w-xs transition duration-300 ease-in-out hover:scale-105"
                                 >
                                     <v-card
-                                        class="pb-3 mr-2 w-[400px]"
                                         border
+                                        class="pb-3 mr-[6px] w-[400px]"
                                         flat
                                     >
                                         <div class="h-[250px]">
