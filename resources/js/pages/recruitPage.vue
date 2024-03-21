@@ -32,7 +32,7 @@
                                     class="transition duration-300 ease-in-out hover:scale-105"
                                 >
                                     <v-card
-                                        class="pb-3 mr-2 w-[400px]"
+                                        class="pb-3 mr-2 w-[300px]"
                                         border
                                         flat
                                     >
@@ -77,7 +77,7 @@
                                 >
                                     <v-card
                                         border
-                                        class="pb-3 mr-[106px] w-[400px]"
+                                        class="pb-3 mr-[6px] w-[300px]"
                                         flat
                                     >
                                         <div class="h-[250px]">
@@ -120,7 +120,7 @@
                                     class="max-w-xs transition duration-300 ease-in-out hover:scale-105"
                                 >
                                     <v-card
-                                        class="pb-3 mr-2 w-[400px]"
+                                        class="pb-3 mr-2 w-[300px]"
                                         border
                                         flat
                                     >

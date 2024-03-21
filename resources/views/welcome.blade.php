@@ -6,7 +6,7 @@
     <meta
       http-equiv="Content-Security-Policy"
       content="upgrade-insecure-requests" >
-    <title>Document</title>
+    <title>Sandburg</title>
     @vite('resources/js/app.js')
     @vite('resources/css/app.css')
 </head>
