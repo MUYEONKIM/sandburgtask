@@ -11,7 +11,9 @@
             <div
                 class="w-full flex items-center p-4 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] mt-[50px]"
             >
-                <p class="font-PretendSemiBold text-[20px] p-4">
+                <p
+                    class="font-PretendSemiBold text-[20px] p-4 w-full text-center"
+                >
                     데이터와 IT로 세상을 바꿀 열정을 가진 여러분을 모시고
                     싶습니다!
                 </p>

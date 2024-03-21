@@ -11,7 +11,9 @@
             <div
                 class="flex items-center w-full p-4 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] mt-[50px]"
             >
-                <p class="font-PretendSemiBold text-[20px] p-4">
+                <p
+                    class="font-PretendSemiBold text-[20px] p-4 text-center w-full"
+                >
                     샌드버그는 온라인 사장님들의 커머스 운영 난이도를 완화하기
                     위해 "스냅" 솔루션을 출시했습니다. <br />snapshop.kr
                 </p>

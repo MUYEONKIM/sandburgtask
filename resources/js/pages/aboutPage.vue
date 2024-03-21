@@ -11,7 +11,9 @@
             <div
                 class="w-full flex items-center p-4 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] mt-[50px]"
             >
-                <p class="font-PretendSemiBold text-[20px] p-4">
+                <p
+                    class="font-PretendSemiBold text-[20px] p-4 text-center w-full"
+                >
                     블루포인트파트너스의 Seed 투자 유치 이후, 10월 팁스 일반형에
                     선정되었습니다. <br />뛰어난 동료들과 함께 온라인 소상공인의
                     미래를 혁신해 나갈 수 있도록 더욱 노력하겠습니다.
@@ -20,7 +22,7 @@
 
             <div class="w-full">
                 <section
-                    class="font-PretendMedium text-[20px] p-4 mt-[50px] flex flex-col"
+                    class="font-PretendMedium text-[20px] p-4 mt-[50px] flex flex-col text-center"
                 >
                     <p>반갑습니다!</p>
                     <p>

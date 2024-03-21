@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="w-[1300px] flex flex-col items-center break-words">
+        <div class="flex flex-col items-center break-words">
             <p
                 class="font-PretendBold text-[56px] leading-[80px] mt-[200px] text-center"
             >
@@ -64,7 +64,7 @@
                             2022
                         </p></template
                     >
-                    <div>
+                    <div class="w-[440px]">
                         <div class="font-PretendRegular text-[16px]">11월</div>
                         <p class="font-PretendSemiBold text-[21px]">
                             다올벤처챌린지 우수상 수상 (상금 2,000만 원)

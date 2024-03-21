@@ -2,6 +2,7 @@
     <div>
         <pageHeader :class="headerClass" :isScrolled="isScrolled" />
         <router-view></router-view>
+        <scrollUpButton :isScrolled="isScrolled" v-if="isScrolled" />
         <pageFooter />
     </div>
 </template>
@@ -10,16 +11,18 @@ import { ref, onMounted, onBeforeUnmount, computed } from "vue";
 import { useRoute } from "vue-router";
 import pageHeader from "./layout/pageHeader.vue";
 import pageFooter from "./layout/pageFooter.vue";
+import scrollUpButton from "./components/scrollUpButton.vue";
+
 export default {
     name: "app",
     components: {
         pageHeader,
         pageFooter,
+        scrollUpButton,
     },
     setup() {
         const isScrolled = ref(false);
         const route = useRoute();
-
         const handleScroll = () => {
             isScrolled.value = window.scrollY > 0;
         };
@@ -44,7 +47,6 @@ export default {
             }
         });
 
-        // setup 함수에서는 사용할 변수와 함수들을 반환해주어야 합니다.
         return {
             isScrolled,
             headerClass,

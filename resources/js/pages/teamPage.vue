@@ -12,7 +12,9 @@
             <div
                 class="w-full flex items-center p-4 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] mt-[50px]"
             >
-                <p class="font-PretendSemiBold text-[20px] p-4">
+                <p
+                    class="font-PretendSemiBold text-[20px] p-4 text-center w-full"
+                >
                     기업이 처한 다양한 환경을 분석해, 알맞은 서비스를 효과적으로
                     제공하며<br />
                     목표를 달성할 수 있도록 전문 조직을 구축해 해결하고
