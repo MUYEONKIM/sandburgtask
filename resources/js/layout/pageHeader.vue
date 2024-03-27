@@ -74,7 +74,6 @@ export default {
         const router = useRouter();
         // 경로가 변경될 때마다 반응하도록 computed 속성 사용
         const routePath = computed(() => {
-            console.log(route.path);
             return route.path;
         });
 
