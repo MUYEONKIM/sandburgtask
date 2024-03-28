@@ -20,15 +20,6 @@
                     온라인 사장님들이 마주하는 사업의 모든 문제를 데이터와
                     연결로 해결하고자 합니다.
                 </p>
-
-                <!-- <div class="mt-[40px]">
-                    <button
-                        @click="moveToPage('/about')"
-                        class="text-white h-[65px] w-[206px] font-PretendBold text-[20px] bg-[#6250FF] rounded-[44px] hover:scale-105 duration-300"
-                    >
-                        -> &nbsp;ABOUT
-                    </button>
-                </div> -->
             </div>
         </div>
     </section>
