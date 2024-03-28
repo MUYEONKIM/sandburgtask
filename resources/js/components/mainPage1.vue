@@ -1,13 +1,13 @@
 <template>
     <section
-        class="h-[1080px] bg-[#0c0f0a] w-full font-PretendMedium flex justify-center items-center bg-[url('../js/assets/main.png')] bg-cover"
+        class="h-[1080px] w-full font-PretendMedium flex justify-center items-center bg-[url('../js/assets/main.png')] bg-cover bg-fixed"
     >
         <div
             class="h-full flex flex-col justify-center w-[1300px] items-center min-[1300px]:items-start"
         >
-            <div class="flex flex-col items-start text-[#d3d3d3]">
+            <div class="flex flex-col items-start text-white">
                 <p
-                    class="w-[520px] inline-block mt-[3vh] text-[#9FBAFD] text-[56px] leading-[80px] font-PretendBold"
+                    class="w-[520px] inline-block mt-[3vh] text-[#5356FF] text-[56px] leading-[80px] font-PretendBold"
                 >
                     SANDBURG
                 </p>
@@ -21,14 +21,14 @@
                     연결로 해결하고자 합니다.
                 </p>
 
-                <div class="mt-[40px]">
+                <!-- <div class="mt-[40px]">
                     <button
                         @click="moveToPage('/about')"
-                        class="h-[65px] w-[206px] font-PretendBold text-[20px] bg-[#6250FF] rounded-[44px] hover:scale-105 duration-300"
+                        class="text-white h-[65px] w-[206px] font-PretendBold text-[20px] bg-[#6250FF] rounded-[44px] hover:scale-105 duration-300"
                     >
                         -> &nbsp;ABOUT
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

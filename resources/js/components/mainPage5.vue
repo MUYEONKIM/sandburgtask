@@ -14,7 +14,6 @@
         </p>
         <v-carousel
             height="320"
-            show-arrows="hover"
             cycle
             hide-delimiter-background
             class="mt-[100px]"

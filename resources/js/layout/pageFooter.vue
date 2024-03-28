@@ -8,11 +8,11 @@
             <p class="text-white text-[32px] font-PretendBold">Contact Us</p>
             <div class="w-full border-b-[1px] border-white mt-[20px]"></div>
             <div class="mt-[20px] text-[16px] text-[#FCFCFC]">
-                <p>채용 문의 | recruit@sandburg.co.kr (051-711-4488)</p>
+                <p>GIT | github.com/MUYEONKIM</p>
                 <p class="mt-[10px]">
-                    사업 및 제휴 문의 | contact@sandburg.co.kr (010-2413-4498)
+                    사업 및 제휴 문의 | rlaandus2@gmail.com (010-4048-7042)
                 </p>
-                <p class="mt-[30px]">2024 © Sandburg lnc.</p>
+                <p class="mt-[30px]">2024 ©️ 김무연</p>
             </div>
         </section>
     </div>
