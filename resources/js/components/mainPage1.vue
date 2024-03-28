@@ -1,6 +1,6 @@
 <template>
     <section
-        class="h-[1080px] w-full font-PretendMedium flex justify-center items-center bg-[url('../js/assets/back.png')] bg-cover bg-fixed"
+        class="h-[1080px] w-full font-PretendMedium flex justify-center items-center bg-[url('../js/assets/mainpage.png')] bg-cover bg-fixed"
     >
         <div
             class="h-full flex flex-col justify-center w-[1300px] items-center min-[1300px]:items-start"
