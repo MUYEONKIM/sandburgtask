@@ -3,13 +3,11 @@
         class="w-full h-[1080px] mt-[180px] bg-[#161a1d] flex flex-col items-center text-center"
     >
         <p
-            class="w-[809.69px] bg-gradient-to-r from-[#B6B7F7] to-[#7FB2FE] text-[56px] font-PretendBold leading-[80px] text-transparent bg-clip-text mt-[200px]"
+            class="bg-gradient-to-r from-[#B6B7F7] to-[#7FB2FE] text-[56px] font-PretendBold leading-[80px] text-transparent bg-clip-text mt-[200px]"
         >
             Sandburg In News
         </p>
-        <p
-            class="w-[809.69px] text-[24px] font-PretendSemiBold leading-[85px] text-white"
-        >
+        <p class="text-[24px] font-PretendSemiBold leading-[85px] text-white">
             언론에 비친 샌드버그를 만나보세요
         </p>
         <v-carousel

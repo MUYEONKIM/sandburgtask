@@ -5,9 +5,11 @@
         <div
             class="h-full flex flex-col justify-center w-[1300px] items-center min-[1300px]:items-start"
         >
-            <div class="flex flex-col items-start text-white">
+            <div
+                class="flex flex-col min-[1300px]:items-start items-center text-white"
+            >
                 <p
-                    class="w-[520px] inline-block mt-[3vh] text-[#5356FF] text-[56px] leading-[80px] font-PretendBold"
+                    class="inline-block mt-[3vh] text-[#5356FF] text-[56px] leading-[80px] font-PretendBold"
                 >
                     SANDBURG
                 </p>
