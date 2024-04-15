@@ -1,4 +1,6 @@
-## 배포 : https://port-9000-sandburgtask-hdoly2alu12v0ki.sel5.cloudtype.app/
+## 배포 (cloudtype의 프리티어를 통해 배포하여 24시간 동안만 서버 유지)
+### 만약 서버가 안 열려 있을시 010-4048-7042로 연락 주시면 감사하겠습니다
+### https://port-9000-sandburgtask-hdoly2alu12v0ki.sel5.cloudtype.app/
 
 ![image](https://github.com/MUYEONKIM/sandburgtask/assets/114132468/b77402d0-c8c9-4256-966a-d33de1cb32bc)
 
